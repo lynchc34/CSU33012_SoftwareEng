@@ -1,8 +1,9 @@
 # CSU330312_SoftwareEng
-Repository of assignments and work done in the module Software Engineering CSU33012
-Taken in Michaelmas Term of 3rd year by TCD students
+Repository of assignments and work done in the module Software Engineering CSU33012.
 
-Contains
+Taken in Michaelmas Term of 3rd year by TCD students.
+
+#Contains
 
 -Java implementation of LCA structure (previous exp)
 
