@@ -1,4 +1,4 @@
-# CSU330312_SoftwareEng
+# CSU33012_SoftwareEng
 Repository of assignments and work done in the module Software Engineering CSU33012.
 
 Taken in Michaelmas Term of 3rd year by TCD students.
@@ -11,4 +11,6 @@ Taken in Michaelmas Term of 3rd year by TCD students.
 
 -Python implementation of LCA structure with DAG taken into account ('')
 
--Github API access & Metric Design Recording
+-Github API visualisation
+
+-Report on measuring software engineering 
