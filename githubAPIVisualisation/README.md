@@ -36,4 +36,4 @@ These visualisations allow the user to interpret when the developer was most act
 ## Roadblocks 
 
 From previous projects I wanted to work again with an authorisation API call. However I struggled trying to figure out how to integrate that to redirect back to the main page. Thankfully researching further into the documentation of the Github API and its possible calls helped a lot. 
-Also learning how to visualise the graph and then many options within javascript libraries was a challenge but progressing from the lecture videos and using the d3.js library was helpful here.
+Also learning how to visualise the graph and the many options within javascript libraries was a challenge but progressing from the lecture videos and using the d3.js library was helpful here.
