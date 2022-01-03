@@ -5,12 +5,12 @@ Taken in Michaelmas Term of 3rd year by TCD students.
 
 # Contains
 
--Java implementation of LCA structure (previous exp)
+  - Java implementation of LCA structure (previous exp)
 
--Python implementation of LCA structure (no prevvious exp)
+  - Python implementation of LCA structure (no prevvious exp)
 
--Python implementation of LCA structure with DAG taken into account ('')
+  - Python implementation of LCA structure with DAG taken into account ('')
 
--Github API visualisation
+  - Github API visualisation
 
--Report on measuring software engineering 
+  - Report on measuring software engineering 
