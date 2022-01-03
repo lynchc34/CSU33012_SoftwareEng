@@ -1,0 +1,98 @@
+body {
+	height: 100vh;
+	width: 100vw;
+	font-family: "Sans-serif";
+	margin: 0;
+	padding: 0;
+}
+
+form input {
+	border: none;
+}
+
+form button {
+	border: none;
+	background-color: rgb(233, 222, 222);
+}
+
+.content {
+	display: grid;
+	grid-auto-columns: 1fr 4fr 4fr;
+	grid-auto-rows: 2fr 2fr;
+	grid-template-areas: "weekCommits searchbox hourGraph" "weekCommits searchbox hourGraph";
+}
+
+.card {
+	font-size: large;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	border-radius: 5px;
+	margin: 10px;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(35, 13, 116, 0.959);
+}
+
+.whiteback {
+	background: white;
+}
+
+.container {
+	padding: 2px 16px;
+}
+
+
+#searchbox {
+	grid-area: searchbox;
+}
+
+#hourGraph {
+	grid-area: hourGraph;
+}
+
+#weekCommits {
+	grid-area: weekCommits;
+}
+
+.bubbles {
+	stroke-width: 1px;
+	stroke: black;
+	opacity: .8;
+}
+
+.bubbles:hover {
+	stroke: black;
+}
+
+.centered {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.homebar {
+	width: 100vw;
+	padding: 10px;
+	margin: 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	background-color: rgb(26, 19, 128);
+	position: fixed;
+	z-index: 1;
+}
+
+.homebarsec {
+	background-color: inherit;
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.homebar a {
+	text-decoration: whitesmoke wavy underline;
+	color: rgb(247, 242, 242);
+}

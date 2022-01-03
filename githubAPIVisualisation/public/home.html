@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Commit Frequency Visualisation</title>
+	<script src="https://d3js.org/d3.v4.js"></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+	<script src="main.js"></script>
+	<script>
+		function getRepo() {
+			username = document.getElementById('user').value;
+			repo = document.getElementById('repo').value;
+			document.getElementById('hour_details').innerHTML = "";
+			hourGraph(username, repo, 'hour_details');
+			document.getElementById('commit_details').innerHTML = "";
+			weekCommitsGraph(username, repo, 'commit_details');
+		}
+	</script>
+</head>
+
+<body>
+
+</body>
+<script>
+var username = 'lynchc34';
+var repo = 'CSU33012_SoftwareEng';
+</script>
+<div class="homebar">
+	<a href=""><div class="homebarsec button">Return</div></a>
+</div>
+
+<div class="content centered">
+	<div id="searchbox" class="whiteback card">
+		<form>
+			<input class="card" id="user" name="user" type="text" value="lynchc34">
+			<input class="card" id="repo" name="repo" type="text" value="CSU33012_SoftwareEng">
+			<button class="card" type="button" onclick="getRepo()">Look Up Repo Details</button>
+		</form>
+	</div>
+	<div id="hourGraph" class="whiteback card">
+		<div id="hour_details">
+			<script>hourGraph(username, repo, 'hour_details')</script>
+		</div>
+	</div>
+	<div id="weekCommits" class="whiteback card">
+		<div id="commit_details">
+			<script>weekCommitsGraph(username, repo, 'commit_details')</script>
+		</div>
+	</div>
+</div>
+</html>
