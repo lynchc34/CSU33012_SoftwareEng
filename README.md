@@ -14,3 +14,5 @@ Taken in Michaelmas Term of 3rd year by TCD students.
   - Github API visualisation
 
   - Report on measuring software engineering 
+
+  - Essay on a Software Engineer Biography
